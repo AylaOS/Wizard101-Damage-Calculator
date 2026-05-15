@@ -1,3 +1,4 @@
 # Wizard101-Damage-Calculator
 
-Hi! I run the program through VSCode using Live Server extension.
+Link to Github Page: https://aylaos.github.io/Wizard101-Damage-Calculator/
+OR use VSCode and run index.html through Live Server extension.
