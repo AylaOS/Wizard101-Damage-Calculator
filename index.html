@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Wizard101 Damage Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Wizard101 Damage Calculator</h1>
+
+    <!-- Player's wizard stats -->
+    <h2>Wizard Stats</h2>
+
+    <label>Wizard Name: </label>
+    <input id="wizardName" type="text">
+
+    <label>School Damage %: </label>
+    <input id="savedDmgPercent" type="number" value="0">
+
+    <label>Pierce %:</label>
+    <input id="piercePercent" type="number" value="0">
+
+    <!-- To save wizard stats -->
+    <button onclick="saveWizardStats()">Save Stats</button>
+
+    <!-- Load previous wizard/s -->
+    <label>Choose Saved Wizard:</label>
+    <select id="wizardSelect"></select>
+
+    <!-- Delete wizard/s-->
+     <button onclick="deleteWizard()">Delete Wizard
+     </button>
+    
+    <!-- Spell Dropdown -->
+    <label>Choose Spell:</label>
+
+    <select id="spellSelect"></select>
+
+    <!-- Resist Input -->
+    <label>Enemy Resist %:</label>
+
+    <input
+        id="resistPercent"
+        type="number"
+        value="0"
+    >
+
+    <!-- Calculate Button -->
+    <button onclick="calculateDamage()">
+        Calculate
+    </button>
+
+    <!-- Result -->
+    <h2 id="result">
+        Final Damage:
+    </h2>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

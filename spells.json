@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Cyclops",
+    "school": "Myth",
+    "minDmg": 265,
+    "maxDmg": 325
+  },
+  {
+    "name": "Humongofrog",
+    "school": "Myth",
+    "minDmg": 275,
+    "maxDmg": 315
+  }
+]
